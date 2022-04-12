@@ -1,0 +1,28 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000]
+; If your monitor is compatible with 10 bit-depth format set it to 1
+"10BitPixelFormat_NA"=dword:00000000
+"3D_Refresh_Rate_Override_DEF"=dword:00000000
+"3to2Pulldown_NA"=dword:00000000
+"AAF_NA"=dword:00000000
+"Adaptive De-interlacing"=dword:00000001
+"AllowRSOverlay"="false"
+"AllowSkins"="false"
+"AllowSnapshot"=dword:00000000
+"AllowSubscription"=dword:00000000
+"AntiAlias_NA"="0"
+"AreaAniso_NA"="0"
+"ASTT_NA"="0"
+"AutoColorDepthReduction_NA"=dword:00000000
+"DisableSAMUPowerGating"=dword:00000001
+"DisableUVDPowerGatingDynamic"=dword:00000001
+"DisableVCEPowerGating"=dword:00000001
+"EnableAspmL0s"=dword:00000000
+"EnableAspmL1"=dword:00000000
+; enable this if you have multiple graphics
+"EnableCrossFireAutoLink"=dword:00000000
+"EnableUlps"=dword:00000000
+"EnableUlps_NA"="0"
+"KMD_DeLagEnabled"=dword:00000001
+"KMD_FRTEnabled"=dword:00000000

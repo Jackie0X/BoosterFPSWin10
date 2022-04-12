@@ -1,0 +1,1 @@
+Use NSudo to run every Regedit.

@@ -1,0 +1,71 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000]
+"DisableDrmdmaPowerGating"=dword:00000001
+; related to record
+"DisableeRecord"=dword:00000001
+"KMD_SDIEnable"=dword:00000000
+"DisableAspmSWL1"=dword:00000001
+"ForcePcieLinkSpeed"=dword:00000001
+"KMD_GameManagerSupport"=dword:00000000
+"KMD_10BitMode"=dword:00000000
+"EnableAspmL1SS"=dword:00000000
+"DisableSamuBypassMode"=dword:00000001
+; Load Balancing Per Watt
+"EnableLBPWSupport"=dword:00000000
+"EnablePllOffInL1"=dword:00000000
+; Related to Intel SpeedStep Technology
+"EnablePPSMSupport"=dword:00000000
+"EnableSpreadSpectrum"=dword:00000000
+; c.f https://docs.nvidia.com/gameworks/content/developertools/desktop/timeout_detection_recovery.htm
+"KMD_AllowTDRAfterECC"=dword:00000001
+; related to record
+"KMD_DVRSupport"=dword:00000000
+; related to vm
+"KMD_EnableDceVmSupport"=dword:00000000
+; HDMI Feature
+"KMD_EnableEDIDManagementSupport"=dword:00000000
+"KMD_EnableEventLog"=dword:00000000
+"KMD_EnableHWSHighPriorityQueue"=dword:00000001
+"KMD_EnableSDMAPaging"=dword:00000001
+; c.f https://steemit.com/virtualbox/@benjamin-u4/fr-guide-qu-est-ce-que-amd-v-amd-svm-pourquoi-et-comment-l-activer
+"KMD_EnableSVMSupport"=dword:00000000
+"KMD_FramePacingSupport"=dword:00000000
+"KMD_UseBestGPUPowerOption"=dword:00000001
+"MobileServerEnabled"=dword:00000000
+"MobileServerRemotePlayEnabled"=dword:00000000
+; related to hdmi
+"DalDisableHDCP"=dword:00000001
+"DalDisableStutter"=dword:00000001
+; related to hdmi
+"DalEnableHDMI20"=dword:00000000
+; c.f https://en.wikipedia.org/wiki/Bit_manipulation_instruction_set
+"DalForceAbmEnable"=dword:00000001
+"DalForceMaxDisplayClock"=dword:00000001
+; related to display port
+"DalOptimizeEdpLinkRate"=dword:00000001
+; c.f https://01.org/linuxgraphics/gfx-docs/drm/ch04s02.html#:~:text=PSR%20feature%20allows%20the%20display,)%20and%20Panel%20(sink).
+"DalPSRFeatureEnable"=dword:00000000
+"DisableAspmL0s"=dword:00000001
+"DisableAspmL1"=dword:00000001
+"DisablePllOffInL1"=dword:00000001
+"DisableSamuClockGating"=dword:00000001
+"DisableSamuLightSleep"=dword:00000001
+"EnableGPUVirtualizationFeature"=dword:00000000
+; c.f https://www.amd.com/fr/technologies/blockchain
+"KMD_BlockchainSupport"=dword:00000000
+'KMD_ChillEnabled"=dword:00000001
+; c.f https://docs.microsoft.com/en-us/windows-hardware/drivers/display/gdi-hardware-acceleration
+"KMD_EnableGDIAcceleration"=dword:00000001
+; related to vm
+"KMD_IoMmuGpuIsolation"=dword:00000000
+; c.f https://www.phoronix.com/scan.php?page=news_item&px=AMDGPU-DC-Seamless-Boot
+"KMD_EnableSeamlessBoot"=dword:00000000
+"KMD_IsGamingDriver"=dword:00000001
+"KMD_RadeonBoostEnabled"=dword:00000001
+; amd software
+"PP_CCCNextEnabled"=dword:00000000
+; c.f https://www.amd.com/fr/technologies/radeon-wattman
+"PP_DisableAutoWattman"=dword:00000001
+"PP_DisableLightSleep"=dword:00000001
+"PP_ThermalAutoThrottlingEnable"=dword:00000000
