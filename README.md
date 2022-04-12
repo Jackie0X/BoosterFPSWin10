@@ -10,7 +10,7 @@
 
 ##### I recommend to enable Game Mode in Settings, it will make FPS more stable and better.
 
-#### 📌 If you have problems or encounter problems, you can contact Discord : Speedy#8465
+#### 📌 If you have problems or encounter problems, you can contact Discord : SSS+#1591
  
   
 
